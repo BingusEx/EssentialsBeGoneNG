@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "essentialsbegone",
+  "version-string": "1.0.0",
+  "port-version": 0,
+  "description": "",
+  "features": {
+    "plugin": {
+      "description": "Build the SKSE plugin.",
+      "dependencies": [
+		"fmt",
+		"spdlog",
+        "rapidcsv",
+        "xbyak",
+        "directxtk"
+      ]
+    }
+  },
+  "default-features": [
+    "plugin"
+  ],
+  "builtin-baseline": "3c7ab2b654826d73abf1e9169162909fcca53491"
+}
